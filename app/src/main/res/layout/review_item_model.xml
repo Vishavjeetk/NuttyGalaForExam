@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/_20sdp"
+    android:paddingBottom="@dimen/_20sdp"
+    android:background="#F9F6EE">
+
+    <TextView
+        android:id="@+id/title_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:text="@string/title_review"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider_review"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/title_review"
+        android:layout_marginTop="@dimen/margin_small"
+        android:background="@color/light_gray" />
+
+
+    <RatingBar
+        android:id="@+id/product_rating_star_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider_review"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:numStars="5"
+        android:rating="0"
+        android:progressTint="#FFD700"
+        android:stepSize="1" />
+
+    <EditText
+        android:id="@+id/product_rating_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_rating_star_review"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:background="@drawable/search_border"
+        android:hint="@string/review_hint"
+        android:inputType="textMultiLine"
+        android:padding="@dimen/padding_medium"
+        android:textColorHint="@color/light_gray" />
+
+
+</RelativeLayout>

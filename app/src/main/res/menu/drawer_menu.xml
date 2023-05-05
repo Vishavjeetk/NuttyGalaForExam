@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/frontPageFragment"
+            android:icon="@drawable/nutty_gala_home"
+            android:title="Home"/>
+
+        <item android:id="@+id/bulkOrdersFragment"
+            android:icon="@drawable/nutty_gala_bulk"
+            android:title="Bulk Orders"/>
+
+        <item android:title="About Us"
+            android:icon="@drawable/nutty_gala_aboutus"
+            android:id="@+id/aboutUsFragment"/>
+
+        <item android:title="Contact Us"
+            android:icon="@drawable/nutty_gala_call"
+            android:id="@+id/contactUsFragment"/>
+
+        <item android:title="My Orders"
+            android:icon="@drawable/nutty_gala_bulk"
+            android:id="@+id/myOrdersFragment"/>
+
+    </group>
+
+    <item android:title="Follow Us">
+
+    <menu>
+
+        <item android:id="@+id/drawer_instagram_handle"
+            android:icon="@drawable/nutty_gala_instagram"
+            android:title="Instagram"/>
+
+        <item android:id="@+id/drawer_log_out"
+            android:icon="@drawable/nutty_gala_tick"
+            android:title="Log Out"/>
+
+    </menu>
+
+    </item>
+
+</menu>

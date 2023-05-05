@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1059667677594",
+    "project_id": "nutty-gala",
+    "storage_bucket": "nutty-gala.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059667677594:android:a847f9279034de9a152a23",
+        "android_client_info": {
+          "package_name": "com.example.nuttygala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059667677594-fp1ofu5jcu2j019al44kr634bjnn7afs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmvz49M0umvFTd1k0LtvvLqlmXjd7BNBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059667677594-fp1ofu5jcu2j019al44kr634bjnn7afs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- action button for search -->
+    <item android:title="Search"
+        android:id="@+id/search"
+        android:orderInCategory="5"
+        app:showAsAction="always"
+        android:icon="@drawable/search"/>
+
+    <item android:title="Cart"
+        android:id="@+id/cart"
+        android:orderInCategory="10"
+        app:showAsAction="always"
+        app:actionLayout="@layout/custom_action_item_layout"
+        android:icon="@drawable/nutty_gala_cart"/>
+
+</menu>

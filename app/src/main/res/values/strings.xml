@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NuttyGala</string>
+    <string name="hi_user_name_here">User Name Here</string>
+    <string name="searchicon">searchIcon</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="phone_number">9779805077</string>
+    <string name="nutty_gala_address">SCO-16D 2nd Floor\nSBP City Square\nSector 127 Mohali, Punjab, 140307</string>
+    <string name="about_us_description">Nutty Gala is a reputable dry fruit brand providing you with the best quality nuts, seeds, premium superfood mixtures, instant breakfast meals, and more. With a wide range of products on our online store, we have something to offer to people of all age groups. We are constantly adding new items and improving our product catalog.\n\n With the premium quality and fresh dry fruits, we have gained the trust of many customers in a short time. Our long-term goal is to become the #1 dry fruit provider by offering the best products at competitive market prices. Our team strives to ensure optimal health and natural taste in all our products.\n\n We look forward to expanding our business to more remote markets to reach every part of the country. Our mission is to make healthy dry fruits, a part of everyone\'s diet, thereby boosting people\'s metabolism and immunity. At Nutty Gala, we keep experimenting and creating new and better dry fruit products that are not only nutritive to a majority of people; but also benefit their health.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_review">Leave a Review</string>
+    <string name="product_name_review">Product Name</string>
+    <string name="product_rating_review">Product Rating</string>
+    <string name="review_hint">Write your review here</string>
+    <string name="submit_review">Submit Review</string>
+    <string name="benefits">These shiny, nutty seeds have an earthy aroma and a host of health benefiting properties</string>
+    <string name="footer_text">Pamper your favourite person with healthy snacks!Nutty Gala provide tasty, organic, and pure dry fruits straight from growers and harvesters. We sell certified food products to preserve a healthy society.</string>
+</resources>

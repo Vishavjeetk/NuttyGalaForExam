@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/_10sdp"
+    android:layout_marginBottom="@dimen/_20sdp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Arrivals"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/front_page_new_arrival"
+        android:textSize="@dimen/_25sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try our newly launched 100% authentic range of products. Get one for yourself Now!"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:gravity="center_horizontal"
+        android:id="@+id/front_page_below_new_arrival"
+        android:textSize="@dimen/_10sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View All"
+        android:background="@drawable/underline"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:id="@+id/view_all_products"/>
+
+</LinearLayout>
